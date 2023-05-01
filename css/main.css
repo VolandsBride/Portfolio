@@ -205,7 +205,7 @@ body {
 }
 
 .btn-outline:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .btn-outline:active {
@@ -222,6 +222,7 @@ body {
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 30px;
+  justify-content: center;
 }
 
 .project {
@@ -330,3 +331,48 @@ body {
 }
 
 /* End of Footer */
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 620px) {
+
+  .header__title {
+    font-size: 30px;
+  }
+
+  .header__title b {
+    font-size: 40px;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .project__title {
+    font-size: 22px;
+  }
+
+  .footer {
+    padding: 40px 0 30px;
+  }
+
+  .social__item {
+    width: 28px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header__title {
+    font-size: 20px;
+  }
+
+  .header__title b {
+    font-size: 30px;
+  }
+}
