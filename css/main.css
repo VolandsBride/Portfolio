@@ -156,7 +156,7 @@ body {
 }
 
 .btn {
-  /* display: inline-block; */
+  display: inline-block;
   height: 46px;
   width: 160px;
   background-color: var(--accent);
@@ -167,6 +167,7 @@ body {
   padding: 12px 28px;
   border-radius: 5px;
   transition: opacity 0.2s ease-in;
+  top: 1px;
 }
 
 .btn:hover {
@@ -175,7 +176,6 @@ body {
 
 .btn:active {
   position: relative;
-  top: 1 px;
 }
 
 /* End of Header */
@@ -211,3 +211,32 @@ body {
 }
 
 /* End of Projects */
+
+
+/* Footer */
+
+.footer {
+  background-color: var(--dark-bg);
+  padding: 50px 0 60px;
+  color: var(--white);
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 27px;
+}
+
+.social {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+
+
+.copyright__text+.copyright__text {
+  margin-top: 30px;
+}
+
+/* End of Footer */
